@@ -1,63 +1,117 @@
-# Követelmény specifikáció
+# COVID-19 Fertőzési Adatok Elemzése és Jövőbeli Becslések
 
-## COVID-19 Adat Előrejelző Rendszer Követelményspecifikáció
+## Bevezetés
 
-### Bevezetés
+A COVID-19 (koronavírus) pandémia világszerte kihívások elé állította az egészségügyi rendszereket és a társadalmakat. Az időbeni és pontos információk kulcsfontosságúak a járvány terjedésének megértéséhez és a megfelelő válaszok kidolgozásához. Ezen felül a járvány lefutásának előrejelzése szintén fontos a kórházi kapacitások és erőforrások tervezése és felhasználása szempontjából.
 
-A COVID-19 Adat Előrejelző Rendszer egy olyan alkalmazás, amely lehetővé teszi az olasz COVID-19 adatok előrejelzését és vizuális elemzését. A rendszer a Python programozási nyelvet, valamint a Matplotlib és Scikit-learn könyvtárakat használja az adatok feldolgozására, előrejelzésekre és megjelenítésre.
+Ebben a projektben egy szoftveralkalmazást tervezünk és fejlesztünk, amely lehetővé teszi a COVID-19 fertőzési adatok elemzését és jövőbeli becsléseket a fertőzés terjedésére vonatkozóan. Az alkalmazás mesterséges intelligencia (AI) algoritmusokat fog használni a becslések készítéséhez, és számos adatforrást támogat majd, például online adatbázisokat, kormányzati API-kat és CSV fájlokat.
 
-### 1. Követelmények
+## Rendszerkövetelmények
 
-#### 1.1. Hardver Követelmények
+Az alkalmazás fejlesztéséhez és futtatásához az alábbi rendszerkövetelményeknek kell megfelelnie:
 
-- A rendszer futtatásához számítógép szükséges olyan hardverrel, amely képes futtatni a Python programot és a Matplotlib grafikus könyvtárat.
-- A hardvernek elegendő memóriával és processzor teljesítménnyel kell rendelkeznie az adatok feldolgozásához és az előrejelzések készítéséhez.
+- **Programozási Nyelv**: Az alkalmazás Python programozási nyelven lesz írva. A Python a 3.6-os verzió vagy újabb változata szükséges.
 
-#### 1.2. Szoftver Követelmények
+- **Operációs Rendszer**: Az alkalmazás platformfüggetlen, és Windows, macOS és Linux operációs rendszereken egyaránt futtatható.
 
-- A rendszer működéséhez a következő szoftverekre van szükség:
-  - Python programnyelv (legalább Python 3.x verzió).
-  - Matplotlib grafikus könyvtár a grafikus megjelenítéshez.
-  - Scikit-learn könyvtár a statisztikai modellek készítéséhez.
+- **Memória**: A gépnek rendelkeznie kell elegendő memóriával a nagy adatkészletek kezeléséhez.
 
-#### 1.3. Adatelérés
+- **Hálózati Kapcsolat**: Az alkalmazás online adatforrásokhoz is csatlakozik, tehát szükséges egy stabil internetkapcsolat.
 
-- A rendszernek képesnek kell lennie az interneten keresztüli adatletöltésre, mivel az Italian Civil Protection weboldaláról letölti az olasz COVID-19 adatokat.
+- **Hardver: Az alkalmazás futtatásához nincs specifikus hardverkövetelmény.
 
-### 2. Funkcionális Követelmények
+## Funkcionális Követelmények
 
-#### 2.1. Adat Letöltése
+Az alkalmazásnak teljesítenie kell a következő funkcionális követelményeket:
 
-- A rendszer képesnek kell lennie az olasz COVID-19 adatok letöltésére az Italian Civil Protection weboldalról.
-- A letöltött adatokat egy CSV fájlban kell tárolni a további feldolgozás céljából.
+### 1. Adatok Betöltése
 
-#### 2.2. Adatfeldolgozás
+Az alkalmazásnak képesnek kell lennie a COVID-19 fertőzési adatok betöltésére különböző forrásokból. Lehetőség van az adatokat online API-król, kormányzati forrásokról vagy helyi CSV fájlokból importálni.
 
-- Az adatelemző algoritmusoknak képeseknek kell lenniük az adatok előkészítésére az előrejelzésekhez.
-- Az adatelemző algoritmusoknak különböző metrikákat kell számolniuk a COVID-19 adatok alapján.
+### 2. Adatok Előkészítése
 
-#### 2.3. Előrejelzések Készítése
+Az alkalmazásnak el kell végeznie az adatok előkészítését. Ez magában foglalja az adatok tisztítását, hiányzó értékek kezelését és a releváns jellemzők kiválasztását az elemzéshez.
 
-- A rendszernek képesnek kell lennie előrejelzések készítésére az elérhető adatok alapján.
-- Előrejelzéseknek kell készülniük összes esetszámra, új esetszámokra és napi intenzív kezelést igénylő betegekre vonatkozóan.
+### 3. Adatok Vizualizálása
 
-#### 2.4. Grafikus Megjelenítés
+Az alkalmazásnak lehetőséget kell biztosítania a COVID-19 fertőzési adatok grafikus megjelenítésére. A matplotlib és más grafikus libraryk segítségével kell létrehoznia különböző diagramokat és idősorokat, amelyek segítik az adatok jobb megértését.
 
-- A rendszernek képesnek kell lennie a valós adatok és az előrejelzések grafikus megjelenítésére egy grafikonon.
-- A grafikus megjelenítésnek lehetővé kell tennie a felhasználók számára az adatok vizuális elemzését.
+### 4. Lineáris Regresszió
 
-#### 2.5. Előrejelzések Mentése
+Az alkalmazásnak alkalmaznia kell a scikit-learn vagy más megfelelő libraryt a lineáris regresszió modellezéshez. A modellnek a COVID-19 adatok alapján kell képesnek lennie a fertőzés terjedésének jövőbeli becsléseire.
 
-- A rendszernek lehetővé kell tennie a korábbi előrejelzések mentését és visszatöltését a további használat céljából.
+### 5. Becslések és Kiértékelés
 
-#### 2.6. Korábbi Előrejelzések Visszatöltése
+Az alkalmazásnak a lineáris regressziós modellek segítségével be kell számítania a jövőbeli fertőzésszámokat. A becslések pontosságát különböző metrikákkal, például a négyzetes hibával és az R-négyzet értékkel kell kiértékelni. A felhasználóknak lehetőséget kell biztosítaniuk a becslések és a kiértékelés eredményeinek vizsgálatára.
 
-- A rendszernek képesnek kell lennie a korábbi előrejelzések visszatöltésére az aktuális adatokhoz való összehasonlítás céljából.
+### 6. Felhasználói Felület (Opcionális)
 
-### 3. Használat
+Opcionálisan készíthet egy felhasználói felületet az alkalmazáshoz, amely lehetővé teszi a felhasználók számára az adatok betöltését, az elemzést és a becsléseket. A felhasználói felületnek intuitívnak és felhasználóbarátnak kell lennie.
 
-- A felhasználók a rendszert az olasz COVID-19 adatok elemzésére, előrejelzésére és követésére használhatják. A rendszer segíti az adatok vizuális megjelenítését és az előrejelzések készítését az olasz COVID-19 járvány alakulásának nyomon követésére.
+### 7. Dokumentáció
 
-## Záró Megjegyzés
+A projekt során létre kell hozni egy részletes dokumentációt az alkalmazás használatáról és a fejlesztési folyamatról. A dokumentáció tartalmazza a telepítési és használati útmutatókat, valamint a projekt architektúra és a kód leírását.
 
-A COVID-19 Adat Előrejelző Rendszer teljesíti a felhasználói igényeket az olasz COVID-19 adatok elemzéséhez és előrejelzéséhez. A rendszernek megfelelő hardver- és szoftverkövetelményeknek kell megfelelnie a hatékony működés érdekében.
+### 8. Tesztek
+
+Az alkalmazásnak tartalmaznia kell automatizált teszteket a különböző részeinek ellenőrzésére. A tesztek segítenek a kód minőségének és stabilitásának biztosításában.
+
+## Környezet és Technikai Követelmények
+
+Az alkalmazásnak támogatnia kell a következő technikai követelményeket:
+
+- Az alkalmazás Python programozási nyelven kell legyen írva.
+- Az alkalmazásnak támogatnia kell a Python 3.6-os verzió vagy újabb változatait.
+- A projekt kódját egy verziókezelő rendszerrel (pl. Git) kell kezelni a fejlesztés során.
+- Az alkalmazásnak függőségeket kell kezelnie és telepítenie, beleértve a numpy, matplotlib, pandas és scikit-learn libraryket.
+
+## Tesztelés és Minőségellenőrzés
+
+A projekt során alapos minőségellenőrzést és tesztelést kell végezni a következő területeken:
+
+- Az alkalmazást széles körű tesztekkel kell ellenőrizni, beleértve az egységteszteket, az integrációs teszteket és a rendszeres frissítések utáni regressziós teszteket.
+- A kódot megfelelően kell dokumentálni, és a PEP 8 stílusirányelveknek megfelelően kell írni. A projektnek biztosítania kell, hogy a szoftver teljesítse a követelményeket és stabilan működjön különböző környezetekben.
+
+## Projektterv
+
+A projekt megvalósításához létre kell hozni egy részletes projekttervet, amely tartalmazza a következő lépéseket:
+
+1. **Követelményspecifikáció**: A projekt céljainak és követelményeinek definiálása.
+2. **Adatgyűjtés és Előkészítés**: Az adatforrások azonosítása és az adatok előkészítése.
+3. **Adatvizualizáció**: Az adatok grafikus megjelenítésének tervezése és kivitelezése.
+4. **Modellezés**: Lineáris regressziós modellek fejlesztése és tesztelése.
+5. **Becslések és Kiértékelés**: A jövőbeli becslések kiszámítása és azok kiértékelése.
+6. **Felhasználói Felület (Opcionális)**: A felhasználói felület tervezése és implementálása.
+7. **Dokumentáció**: A projekt dokumentációjának elkészítése és frissítése.
+8. **Tesztek és Minőségellenőrzés**: Az alkalmazás tesztelése és minőségellenőrzése.
+9. **Projektzárás**: A projekt teljesítése és átadása.
+
+## Projektcsapat
+
+A projekt sikeréhez egy kompetens projektcsapat szükséges, amely magában foglalja a következő szerepköröket:
+
+- Projektvezető: Felelős a projektmenedzsmentért és a határidők betartásáért.
+- Adatanalitikusok: Felelősek az adatok elemzéséért és előkészítéséért.
+- Mesterséges Intelligencia Szakértő: Felelős a regressziós modellek fejlesztéséért és validálásáért.
+- UI/UX tervezők és fejlesztők (opcionális): A felhasználói felület tervezéséért és implementálásáért felelősek.
+- Dokumentáció és tesztelési szakértők: A projekt dokumentációjának készítéséért és a tesztek végrehajtásáért felelősek.
+
+## Követelmények Validálása
+
+Az elkészített alkalmazásnak meg kell felelnie a követelményeknek és a felhasználói igényeknek. A követelmények validálását folyamatosan végezni kell a projekt során.
+
+## Összegzés
+
+Ez a követelményspecifikáció rögzíti az elvárt funkcionalitásokat és követelményeket a COVID-19 fertőzési adatok elemzése és jövőbeli becslése projekt számára. Az alkalmazás célja a járvány terjedésének elemzése és a jövőbeli trendek előrejelzése, ami kulcsfontosságú az egészségügyi hatóságok és döntéshozók számára a járvány kezelése során. A projekt sikere a csapat együttműködésén és az alapos tervezésen múlik. A dokumentáció, a tesztek és a minőségellenőrzés segítenek a projekt eredményességének biztosításában és a fejlesztés sikerében.
+
+## Fogalomtár
+
+**COVID-19**: A COVID-19, vagy más néven koronavírus betegség 2019, egy súlyos akut légzőszervi szindrómát okozó vírus, amelyet a SARS-CoV-2 nevű koronavírus okoz. 2019-ben tört ki, és világszerte járványszerű terjedést okozott. A betegség tünetei közé tartozik a láz, köhögés, légzési nehézségek, és súlyos esetekben tüdőgyulladás. A COVID-19 pandémiát 2020-ban hirdette meg a WHO (Egészségügyi Világszervezet).
+
+**Mesterséges Intelligencia (AI)**: Az AI egy olyan terület, amely a gépeknek és számítógépeknek a gondolkodás és tanulás képességének fejlesztésére összpontosít. Az AI rendszerek képesek adatok elemzésére, mintázatok felismerésére és intelligens döntések meghozatalára. Ebben a projektben az AI-t használjuk a COVID-19 fertőzési adatok elemzésére és jövőbeli becslésekre.
+
+**Lineáris Regresszió**: A lineáris regresszió egy statisztikai módszer, amelyet a függő változó és az egy vagy több független változó közötti lineáris kapcsolat meghatározására használnak. A lineáris regresszió modellek lehetővé teszik az előrejelzést és a becslést a változók közötti kapcsolat alapján. Ebben a projektben a lineáris regressziót alkalmazzuk a COVID-19 fertőzési adatok elemzésére és jövőbeli becslésekre.  
+
+**Adatvizualizáció**: Az adatvizualizáció olyan folyamat, amelynek során adatokat grafikus eszközökkel jelenítünk meg, például diagramok, táblázatok vagy grafikonok segítségével. Az adatvizualizáció segít az adatok jobb megértésében és könnyebb áttekintésében. Ebben a projektben az adatvizualizációval dolgozunk a COVID-19 fertőzési adatok bemutatásához.
+
+**Becslések és Kiértékelés**: A becslések olyan előrejelzések vagy extrapolációk, amelyeket az adatok alapján hoznak létre. A kiértékelés a becslések pontosságának és megbízhatóságának ellenőrzését jelenti különböző metrikák és módszerek segítségével. Ebben a projektben a becsléseket és kiértékeléseket használjuk a COVID-19 fertőzési adatok jövőbeli tendenciáinak elemzéséhez és predikciójához.
