@@ -52,9 +52,7 @@ A COVID-19 Adat Előrejelző Rendszer egy olyan alkalmazás, amely lehetővé te
 
 #### 2.6. Korábbi Előrejelzések Visszatöltése
 
-- A rend
-
-szernek képesnek kell lennie a korábbi előrejelzések visszatöltésére az aktuális adatokhoz való összehasonlítás céljából.
+- A rendszernek képesnek kell lennie a korábbi előrejelzések visszatöltésére az aktuális adatokhoz való összehasonlítás céljából.
 
 ### 3. Használat
 
