@@ -16,15 +16,8 @@ today = date.today()
 print(today)
 
 # Get data updated
-if os.path.exists('data.csv'):
-    os.remove('data.csv')
 
-url = 'https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv'
-try:
-    file = wget.download(url, out='data.csv')
-    print("\n")
-except:
-    print("BAD", url)
+url = 'data.csv'
 
 # Setting parameters
 config = {
@@ -34,7 +27,7 @@ config = {
     'terapia_intensiva': 2,
     'time': int(str(datetime.datetime.now().time())[0:2]),
     'update_data': 18,
-    'start_date': datetime.date(2020, 3, 16)
+    'start_date': datetime.date(2023, 7, 21)
 }
 
 path_img = 'img/'
@@ -83,7 +76,7 @@ def forecast(model_name, model, degree, beginning_day=0, limit=10):
 
 # Plot results
 def plot_prediction(y, predictions, title):
-    total_days = [datetime.date(2020, 2, 24) + datetime.timedelta(days=int(i)) for i in range(int(y.shape[0]) + predictions.shape[0])]
+    total_days = [datetime.date(2023, 7, 21) + datetime.timedelta(days=int(i)) for i in range(int(y.shape[0]) + predictions.shape[0])]
 
     if config['time'] >= config['update_data']:
         today = str(datetime.date.today())
