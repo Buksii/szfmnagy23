@@ -4,9 +4,7 @@ import pandas as pd
 
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
-from sklearn.metrics import mean_squared_error
 
-import os
 
 import datetime
 from datetime import date
@@ -14,7 +12,6 @@ from datetime import date
 today = date.today()
 print(today)
 
-# Get data updated
 
 url = 'data.csv'
 
@@ -32,7 +29,11 @@ config = {
 path_img = 'img/'
 path_data = 'save_data/'
 
+def load_actual_data(title):
+    series = pd.read_csv('data.csv')
+    actual_data = series[['date', title]].values
 
+    return actual_data
 # Define linear regression  methods
 def train_model(x, y, degree):
     polynomial_features = PolynomialFeatures(degree=degree)
