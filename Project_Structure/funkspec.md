@@ -41,6 +41,9 @@ A COVID-19 Adat Előrejelző Rendszer működése a következő folyamatokból �
 7. **Automatikus Frissítés**:
    - A rendszer lehetővé teszi az automatikus adatfrissítést meghatározott időközönként, hogy mindig a legfrissebb adatokkal dolgozzon.
 
+8. **Részletes Előrejelzések**:
+   - Kibővítjük az előrejelzéseket, hogy ne csak összesített adatokat, hanem részletes előrejelzéseket is tartalmazzon különböző régiókra vagy városokra vonatkozóan.
+
 ## Funkciók és Bemeneti adatok
 
 Az alábbiakban részletesen leírjuk a rendszer funkcióit és a hozzájuk tartozó bemeneti adatokat:
