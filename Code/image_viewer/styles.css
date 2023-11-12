@@ -7,3 +7,14 @@ body {
 img {
   border-radius: 5px;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container .image {
+  cursor: pointer;
+  object-fit: cover;
+  transition: 0.3s;
+}
