@@ -2,7 +2,7 @@
 
 ## Rendszer Áttekintése
 
-A COVID-19 Adat Előrejelző Rendszer célja, hogy előrejelezze az olasz COVID-19 adatokat, különböző statisztikai modellek segítségével. A rendszer képes letölteni és feldolgozni a friss COVID-19 adatokat, majd előrejelzéseket készíteni a jövőbeli esetszámokra és egyéb metrikákra.
+A COVID-19 Adat Előrejelző Rendszer továbbfejlesztett funkcionalitással rendelkezik, melynek célja a felhasználók számára még komplexebb adatelemzési és előrejelzési lehetőségek biztosítása. A rendszer alkalmazkodó és rugalmas, lehetőséget teremtve az automatizált adatfrissítésre, részletes előrejelzésekre különböző régiókra vonatkozóan, és egy továbbfejlesztett felhasználói interfészre a jobb kezelhetőség érdekében.
 
 ### Rendszerkomponensek
 
