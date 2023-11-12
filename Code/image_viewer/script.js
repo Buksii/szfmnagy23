@@ -4,3 +4,7 @@
                 document.getElementById('image-viewer').style.display = 'block';
             })
         })
+
+     document.getElementById('close').addEventListener('click', function() {
+            document.getElementById('image-viewer').style.display = 'none';
+        })
