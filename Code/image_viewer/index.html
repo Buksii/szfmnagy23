@@ -14,11 +14,15 @@
           <img src="/code/img/Italiannew-dailycasesprediction.png" width="300" height="200" class="image">
       </div>
 
-    <div id="image-viewer">
-        <div>
-            <span id="close">&times;</span>
-            <img id="full-image">
-        </div>
+  <div id="image-viewer">
+    <div>
+        <span id="close" onclick="closeViewer()">&times;</span>
+        <span id="prev" onclick="changeImage(-1)">&#8249;</span>
+        <img id="full-image">
+        <span id="next" onclick="changeImage(1)">&#8250;</span>
     </div>
+</div>
+
+
 </body>
 </html>
