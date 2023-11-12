@@ -46,3 +46,21 @@ img {
   max-width: 800px;
   animation: showImage 0.5s;
 }
+@keyframes  showImage {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+#close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white;
+  font-size: 30px;
+  transition: 0.3s;
+  cursor: pointer;
+}
