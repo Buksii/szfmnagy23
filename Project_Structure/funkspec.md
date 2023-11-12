@@ -16,6 +16,10 @@ A COVID-19 Adat Előrejelző Rendszer célja, hogy előrejelezze az olasz COVID-
 
 - **Mentés és Visszatöltés**: A rendszer lehetővé teszi a korábbi előrejelzések mentését és visszatöltését a további használat céljából.
 
+- **Automatikus Frissítés**: A rendszer lehetővé teszi az automatikus adatfrissítést meghatározott időközönként, hogy mindig a legfrissebb adatokkal dolgozzon.
+
+- **Részletes Előrejelzések**: Kibővítjük az előrejelzéseket, hogy ne csak összesített adatokat, hanem részletes előrejelzéseket is tartalmazzon különböző régiókra vagy városokra vonatkozóan.
+
 ## Rendszer Működése
 
 A COVID-19 Adat Előrejelző Rendszer működése a következő folyamatokból áll:
@@ -37,12 +41,6 @@ A COVID-19 Adat Előrejelző Rendszer működése a következő folyamatokból �
 
 6. **Korábbi Előrejelzések Visszatöltése**:
    - A rendszer lehetővé teszi a korábbi előrejelzések visszatöltését és összehasonlítását az aktuális adatokkal.
-
-7. **Automatikus Frissítés**:
-   - A rendszer lehetővé teszi az automatikus adatfrissítést meghatározott időközönként, hogy mindig a legfrissebb adatokkal dolgozzon.
-
-8. **Részletes Előrejelzések**:
-   - Kibővítjük az előrejelzéseket, hogy ne csak összesített adatokat, hanem részletes előrejelzéseket is tartalmazzon különböző régiókra vagy városokra vonatkozóan.
 
 ## Funkciók és Bemeneti adatok
 
