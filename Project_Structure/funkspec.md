@@ -100,6 +100,12 @@ Az alábbiakban részletesen leírjuk a rendszer funkcióit és a hozzájuk tart
 - **Bemeneti adatok**: Felhasználói visszajelzések és új funkciók tervezése.
 - **Kimeneti adatok**: Frissített felhasználói felület a könnyebb használat és adatmegértés érdekében.
 
+### 10. Adatok Exportálása és Importálása
+
+- **Funkció**: A rendszer lehetővé teszi az előrejelzésekből származó adatok exportálását külső fájlba és azok importálását más rendszerek vagy alkalmazások számára.
+- **Bemeneti adatok**: Exportálni kívánt előrejelzések vagy importálni kívánt fájl.
+- **Kimeneti adatok**: Exportált előrejelzések külső fájlban vagy importált adatok a rendszerbe.
+
 ## Felhasználás
 
 A COVID-19 Adat Előrejelző Rendszer felhasználható a COVID-19 adatok elemzésére, előrejelzésekre és követésre. A rendszer segít az adatok vizuális megjelenítésében és az előrejelzések készítésében az olasz COVID-19 járvány alakulásának követésére.
