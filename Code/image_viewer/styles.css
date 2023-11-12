@@ -73,3 +73,26 @@ img {
     width: 100%;
   }
 }
+#prev,
+#next,
+#close {
+    display: none;
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+#close {
+    top: 10px;
+    right: 10px;
+}

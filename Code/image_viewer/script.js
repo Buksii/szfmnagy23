@@ -5,11 +5,21 @@ window.onload = function() {
         image.addEventListener('click', event => {
             document.getElementById('full-image').setAttribute('src', image.getAttribute('src'));
             document.getElementById('image-viewer').style.display = 'block';
+
+            // Show navigation spans
+            document.getElementById('prev').style.display = 'inline-block';
+            document.getElementById('next').style.display = 'inline-block';
+            document.getElementById('close').style.display = 'inline-block';
         });
     });
 
     document.getElementById('close').addEventListener('click', function() {
         document.getElementById('image-viewer').style.display = 'none';
+
+        // Hide navigation spans
+        document.getElementById('prev').style.display = 'none';
+        document.getElementById('next').style.display = 'none';
+        document.getElementById('close').style.display = 'none';
     });
 
     window.addEventListener('keydown', function (e) {
@@ -22,6 +32,7 @@ window.onload = function() {
         }
     });
 };
+
 
 let currentImageIndex = 0;
 
