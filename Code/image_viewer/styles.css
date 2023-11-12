@@ -18,3 +18,12 @@ img {
   object-fit: cover;
   transition: 0.3s;
 }
+
+.container .image:hover {
+  opacity: 0.8;
+}
+
+#image-viewer {
+  display: none;
+  z-index: 999;
+}
