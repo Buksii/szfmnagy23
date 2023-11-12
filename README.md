@@ -6,4 +6,4 @@
 - [Szoftver Tesztelési Jegyzőkönyv Minta](https://github.com/Buksii/szfmnagy23/blob/main/Test_structure/tesztjegyzokonyv_minta.md)
   
 **---------------------------------------**
-- [Trello](https://trello.com/b/6lloDt8Y/szfmtemplate)
+- [Trello](https://trello.com/b/mMYBH83O/szfmnagy2023)
