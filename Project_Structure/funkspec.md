@@ -6,19 +6,22 @@ A COVID-19 Adat Előrejelző Rendszer továbbfejlesztett funkcionalitással rend
 
 ### Rendszerkomponensek
 
-- **Adatgyűjtő Komponens**: Letölti az olasz COVID-19 adatokat az Italian Civil Protection weboldaláról, majd azokat egy CSV fájlba menti a további feldolgozás céljából.
+- **Adatgyűjtő Komponens**: Ez a komponens felelős a COVID-19 adatok letöltéséért az Italian Civil Protection weboldaláról. Az adatokat rendszeresen frissíti, és egy CSV fájlba menti, biztosítva a további feldolgozás lehetőségét.
 
-- **Előrejelző Modellek**: Különböző statisztikai modellek segítségével előrejelzéseket készít az elérhető COVID-19 adatokra. Modellek: általános esetszámokra, napi új esetszámokra és napi intenzív kezelést igénylő betegekre vonatkozóan.
+- **Előrejelző Modellek**: Ez a komponens különböző statisztikai modellek segítségével előrejelzéseket készít az elérhető COVID-19 adatokra. Magában foglalja az általános esetszámokra, napi új esetszámokra és napi intenzív kezelést igénylő betegekre vonatkozó modelleket.
 
-- **Adatelemző és Előrejelző Algoritmusok**: Az adatelemző algoritmusok előkészítik az adatokat az előrejelzésekhez, míg az előrejelző algoritmusok végzik az előrejelzéseket az adatok alapján.
+- **Adatelemző és Előrejelző Algoritmusok**: Adatalemző algoritmusok előkészítik az adatokat az előrejelzésekhez, például kiszámolják a napi új esetszámokat és egyéb metrikákat. Az előrejelző algoritmusok magukban foglalják azokat az algoritmusokat, amelyek az előrejelzéseket a felkészített adatok alapján végzik el.
 
-- **Grafikus Megjelenítés**: A rendszer grafikusan megjeleníti a valós adatokat és az előrejelzéseket egy grafikonon, amely lehetővé teszi a felhasználók számára az adatok vizuális elemzését.
+- **Grafikus Megjelenítés**: Ez a komponens felelős a rendszer által generált adatok grafikus megjelenítéséért. A felhasználóknak lehetőségük van a valós adatok és előrejelzések vizuális elemzésére, többek között idősor diagramok, tortadiagramok és térképek segítségével.
 
-- **Mentés és Visszatöltés**: A rendszer lehetővé teszi a korábbi előrejelzések mentését és visszatöltését a további használat céljából.
+- **Mentés és Visszatöltés**: Ez a komponens lehetővé teszi a felhasználók számára a korábbi előrejelzések mentését és visszatöltését. Ez segít az előző adatok összehasonlításában és azoknak a további használatban.
 
-- **Automatikus Frissítés**: A rendszer lehetővé teszi az automatikus adatfrissítést meghatározott időközönként, hogy mindig a legfrissebb adatokkal dolgozzon.
+- **Automatikus Frissítés**: A rendszer automatikus frissítési komponense lehetővé teszi a rendszer számára, hogy meghatározott időközönként automatikusan frissítse az adatokat. A felhasználók számára testreszabható frissítési opciókat biztosítva.
 
-- **Részletes Előrejelzések**: Kibővítjük az előrejelzéseket, hogy ne csak összesített adatokat, hanem részletes előrejelzéseket is tartalmazzon különböző régiókra vagy városokra vonatkozóan.
+
+- **Részletes Előrejelzések**: A részletes előrejelzések komponense kibővíti az előrejelzéseket a specifikus régiókra vagy városokra vonatkozóan. Ez segíti a felhasználókat a járványhelyzet lokalizáltabb és részletesebb megértésében.
+
+- **Továbbfejlesztett Felhasználói Interfész**: A felhasználói interfész kibővítése a felhasználóbarát funkciókkal és összetettebb adatvizualizációval. Az interaktív elemek, részletes grafikonok és személyre szabhatósági lehetőségek a könnyebb használat és adatmegértés érdekében szolgálnak.
 
 ## Rendszer Működése
 
