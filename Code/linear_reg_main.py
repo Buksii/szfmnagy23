@@ -75,15 +75,17 @@ def forecast(model_name, model, degree, beginning_day=0, limit=10):
 
 
 # Plot results
-def plot_prediction(y, predictions, title):
-    total_days = [datetime.date(2023, 7, 21) + datetime.timedelta(days=int(i)) for i in range(int(y.shape[0]) + predictions.shape[0])]
+def plot_prediction(y, predictions, title, model, degree):
+    total_days = [datetime.date(2023, 7, 21) + datetime.timedelta(days=int(i)) for i in
+                  range(int(y.shape[0]) + predictions.shape[0])]
 
     if config['time'] >= config['update_data']:
         today = str(datetime.date.today())
         last_day = str(datetime.date.today() + datetime.timedelta(days=config['days_to_forecast']))
     else:
         today = str(datetime.date.today() - datetime.timedelta(1))
-        last_day = str(datetime.date.today() - datetime.timedelta(1) + datetime.timedelta(days=config['days_to_forecast']))
+        last_day = str(
+            datetime.date.today() - datetime.timedelta(1) + datetime.timedelta(days=config['days_to_forecast']))
 
     final_dates = []
     for i in total_days:
@@ -97,17 +99,24 @@ def plot_prediction(y, predictions, title):
 
     series = np.concatenate([y, predictions], axis=0)
 
-    #old = load_predictions(title)
+    # Get predictions for the next 3 days
+    next_days_x = np.array(range(len(y), len(y) + config['days_to_forecast'])).reshape(-1, 1)
+    next_days_pred = np.round(get_predictions(next_days_x, model, degree), 0).astype(np.int32)
 
     fig, ax = plt.subplots(figsize=(15, 8))
     ax.plot(final_dates, series, label='Predicted cases')
+
+    # Plot the next 3 days in green
+    next_days_x = [str(datetime.date.today() + datetime.timedelta(i)) for i in range(1, config['days_to_forecast'] + 1)]
+    ax.plot(next_days_x, next_days_pred, color='green', linestyle='--', label='+3 days forecast')
+
     ax.plot(y, color='red', label='Verified cases')
     fig.autofmt_xdate()
     plt.gca().xaxis.set_major_locator(plt.LinearLocator(numticks=30))
     ax.axvspan(today[5:], last_day[5:], alpha=0.25)
-    plt.title(title)
-    plt.legend()
-    plt.grid()
+    ax.set_title(title)
+    ax.legend()
+    ax.grid()
     plt.show()
     fig.savefig(path_img + title.replace(" ", "") + ".png")
 
@@ -156,7 +165,6 @@ def routine(series, title, degree):
 
     model = train_model(x, y, degree)
     predictions = call_model(title, model, x, y, config["days_to_forecast"], degree)
-    plot_prediction(y, predictions, title)
 
 # Get series
 series = pd.read_csv('data.csv')
