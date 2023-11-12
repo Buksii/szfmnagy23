@@ -23,6 +23,14 @@ A COVID-19 Adat Előrejelző Rendszer továbbfejlesztett funkcionalitással rend
 
 - **Továbbfejlesztett Felhasználói Interfész**: A felhasználói interfész kibővítése a felhasználóbarát funkciókkal és összetettebb adatvizualizációval. Az interaktív elemek, részletes grafikonok és személyre szabhatósági lehetőségek a könnyebb használat és adatmegértés érdekében szolgálnak.
 
+- **Adatok Exportálása és Importálása**: Ezen komponens célja az előrejelzésekből származó adatok exportálása külső fájlba és ezek importálása más rendszerek vagy alkalmazások számára. A felhasználóknak lehetőségük van az előrejelzéseik eredményeinek későbbi felhasználására más platformokon vagy alkalmazásokban.
+
+- **Részletes Grafikus Elemzés**: Ez a komponens a grafikus megjelenítés továbbfejlesztése, amely specifikusabb vizualizációs eszközöket biztosít a felhasználók számára. Többféle diagram, térkép és interaktív eszköz segíti a részletesebb és mélyebb adatelemzést.
+
+- **Felhasználói Jogosultságok Kezelése**: Ez a komponens lehetőséget biztosít a felhasználói jogosultságok kezelésére, azaz a rendszerbe való belépés és a funkcionalitások elérésének szabályozására. Adminisztrátori jogosultságokkal rendelkező felhasználók különböző beállításokat végezhetnek a rendszerben.
+
+- **Hibakeresés és Naplózás**: Ezen komponens felelős a rendszer működésének figyelemmel kíséréséért és a hibakeresésért. Egy naplózó rendszer segítségével a rendszer üzemelt
+
 ## Rendszer Működése
 
 A COVID-19 Adat Előrejelző Rendszer működése a következő folyamatokból áll:
