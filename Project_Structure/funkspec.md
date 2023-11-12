@@ -72,9 +72,7 @@ Az alábbiakban részletesen leírjuk a rendszer funkcióit és a hozzájuk tart
 
 ### 5. Előrejelzések Mentése
 
-- **Funkció**: Az előrejelzések mentése a további használat
-
- céljából.
+- **Funkció**: Az előrejelzések mentése a további használat céljából.
 - **Bemeneti adatok**: Előrejelzések és a címke (címke az előrejelzés típusát vagy a dátumot jelöli).
 - **Kimeneti adatok**: Mentett előrejelzések.
 
@@ -83,6 +81,18 @@ Az alábbiakban részletesen leírjuk a rendszer funkcióit és a hozzájuk tart
 - **Funkció**: A korábbi előrejelzések visszatöltése az aktuális adatokhoz való összehasonlítás céljából.
 - **Bemeneti adatok**: Korábbi előrejelzések és az aktuális adatok.
 - **Kimeneti adatok**: Visszatöltött előrejelzések az összehasonlításhoz.
+
+### 7. Automatikus Frissítés
+
+- **Funkció**: Az adatok automatikus frissítése meghatározott időközönként.
+- **Bemeneti adatok**: Beállított frissítési időköz és az adatforrás URL-je.
+- **Kimeneti adatok**: Frissített adatok a további feldolgozás céljából.
+
+### 8. Részletes Előrejelzések
+
+- **Funkció**: Részletes előrejelzések készítése különböző régiókra vagy városokra vonatkozóan.
+- **Bemeneti adatok**: Specifikus régióra vagy városra vonatkozó adatok és előrejelző modell.
+- **Kimeneti adatok**: Részletes előrejelzések az összes fontos metrikára.
 
 ## Felhasználás
 
