@@ -94,6 +94,12 @@ Az alábbiakban részletesen leírjuk a rendszer funkcióit és a hozzájuk tart
 - **Bemeneti adatok**: Specifikus régióra vagy városra vonatkozó adatok és előrejelző modell.
 - **Kimeneti adatok**: Részletes előrejelzések az összes fontos metrikára.
 
+### 9. Továbbfejlesztett Felhasználói Interfész
+
+- **Funkció**: A felhasználói felület kibővítése a felhasználóbarát funkciókkal és az összetettebb adatvizualizációval.
+- **Bemeneti adatok**: Felhasználói visszajelzések és új funkciók tervezése.
+- **Kimeneti adatok**: Frissített felhasználói felület a könnyebb használat és adatmegértés érdekében.
+
 ## Felhasználás
 
 A COVID-19 Adat Előrejelző Rendszer felhasználható a COVID-19 adatok elemzésére, előrejelzésekre és követésre. A rendszer segít az adatok vizuális megjelenítésében és az előrejelzések készítésében az olasz COVID-19 járvány alakulásának követésére.
