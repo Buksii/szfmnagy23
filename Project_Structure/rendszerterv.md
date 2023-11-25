@@ -31,6 +31,10 @@ A rendszer több komponensből áll, amelyek összefűzik a feldolgozást és az
    - A rendszer lehetővé teszi a korábbi előrejelzések mentését és visszatöltését.
    - A mentett előrejelzések segítik az adatok követését és összehasonlítását.
 
+## Excel és PowerBI
+- A Microsoft Excel és a Microsoft PowerBI Desktop alkalmazásokat is felhasználtuk a gráfok elkészítésére
+- A Office és Business szoftverek segítettek a szoftverünk ellenőrzésében és a szebb, egyszerűbb gráfolásban
+
 ## Üzleti folyamat
 
 ![](https://github.com/Buksii/szfmnagy23/blob/main/Project_Structure/img/Üzleti%20terv.png)
