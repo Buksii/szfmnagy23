@@ -16,8 +16,7 @@ A COVID-19 Adat Előrejelző Rendszer továbbfejlesztett funkcionalitással rend
 
 - **Mentés és Visszatöltés**: Ez a komponens lehetővé teszi a felhasználók számára a korábbi előrejelzések mentését és visszatöltését. Ez segít az előző adatok összehasonlításában és azoknak a további használatban.
 
-- **Automatikus Frissítés**: A rendszer automatikus frissítési komponense lehetővé teszi a rendszer számára, hogy meghatározott időközönként automatikusan frissítse az adatokat. A felhasználók számára testreszabható frissítési opciókat biztosítva.
-
+- **Automatikus Frissítés**: A rendszer automatikus frissítési komponense lehetővé teszi a rendszer számára, hogy meghatározott időközönként automatikusan frissítse az adatokat. A felhasználóknak számára testreszabható frissítési opciókat biztosítva.
 
 - **Részletes Előrejelzések**: A részletes előrejelzések komponense kibővíti az előrejelzéseket a specifikus régiókra vagy városokra vonatkozóan. Ez segíti a felhasználókat a járványhelyzet lokalizáltabb és részletesebb megértésében.
 
@@ -29,11 +28,13 @@ A COVID-19 Adat Előrejelző Rendszer továbbfejlesztett funkcionalitással rend
 
 - **Felhasználói Jogosultságok Kezelése**: Ez a komponens lehetőséget biztosít a felhasználói jogosultságok kezelésére, azaz a rendszerbe való belépés és a funkcionalitások elérésének szabályozására. Adminisztrátori jogosultságokkal rendelkező felhasználók különböző beállításokat végezhetnek a rendszerben.
 
-- **Hibakeresés és Naplózás**: Ezen komponens felelős a rendszer működésének figyelemmel kíséréséért és a hibakeresésért. Egy naplózó rendszer segítségével a rendszer üzemelt
+- **Hibakeresés és Naplózás**: Ezen komponens felelős a rendszer működésének figyelemmel kíséréséért és a hibakeresésért. Egy naplózó rendszer segítségével a rendszer üzemeltetői könnyen monitorozhatják a rendszer működését és az esetleges hibákat.
 
 ## Rendszer Működése
 
-A COVID-19 Adat Előrejelző Rendszer működése a következő folyamatokból áll:
+A COVID-19 Adat Előrej
+
+elző Rendszer működése a következő folyamatokból áll:
 
 1. **Adat Letöltése**:
    - A rendszer letölti az olasz COVID-19 adatokat az Italian Civil Protection weboldalról, és egy CSV fájlba menti azokat a további feldolgozás céljából.
@@ -107,20 +108,30 @@ Az alábbiakban részletesen leírjuk a rendszer funkcióit és a hozzájuk tart
 
 ### 9. Továbbfejlesztett Felhasználói Interfész
 
-- **Funkció**: A felhasználói felület kibővítése a felhasználóbarát funkciókkal és az összetettebb adatvizualizációval.
+- **Funkció**: A felhasználói felüszín kibővítése a felhasználóbarát funkciókkal és az összetettebb adatvizualizációval.
 - **Bemeneti adatok**: Felhasználói visszajelzések és új funkciók tervezése.
 - **Kimeneti adatok**: Frissített felhasználói felület a könnyebb használat és adatmegértés érdekében.
 
 ### 10. Adatok Exportálása és Importálása
 
-- **Funkció**: A rendszer lehetővé teszi az előrejelzésekből származó adatok exportálását külső fájlba és azok importálását más rendszerek vagy alkalmazások számára.
-- **Bemeneti adatok**: Exportálni kívánt előrejelzések vagy importálni kívánt fájl.
-- **Kimeneti adatok**: Exportált előrejelzések külső fájlban vagy importált adatok a rendszerbe.
+
+- **Funkció**: A rendszer lehetővé teszi az előrejelzésekből származó adatok exportálását külső fájlba és azok importálását más rendszerek vagy alkalmazások számára. Ez lehetőséget nyújt a felhasználóknak az előrejelzések eredményeinek megosztására, valamint az adatok más analitikai vagy elemző eszközökben történő további feldolgozására.
+
+- **Bemeneti adatok**: 
+  - Exportálni kívánt előrejelzések: A felhasználó kiválaszthatja, hogy melyik előrejelzéseket szeretné exportálni a rendszerből.
+  - Importálni kívánt fájl: A felhasználó kiválaszthat egy külső fájlt, amelyet importálni szeretne a rendszerbe.
+
+- **Kimeneti adatok**: 
+  - Exportált előrejelzések külső fájlban: A rendszer létrehoz egy struktúrált fájlt, amely tartalmazza az exportált előrejelzéseket. Ez lehet CSV, JSON vagy más formátum, amely könnyen kezelhető más alkalmazásokban.
+  - Importált adatok a rendszerbe: A rendszerbe importált adatok a felhasználó által kiválasztott fájlból. Ezek az adatok felhasználhatók további elemzésekhez és összehasonlításokhoz a rendszeren belül.
+
 
 ## Felhasználás
 
-A COVID-19 Adat Előrejelző Rendszer felhasználható a COVID-19 adatok elemzésére, előrejelzésekre és követésre. A rendszer segít az adatok vizuális megjelenítésében és az előrejelzések készítésében az olasz COVID-19 járvány alakulásának követésére.
+- A COVID-19 Adat Előrejelző Rendszer felhasználható a COVID-19 adatok elemzésére, előrejelzésekre és követésre.
+- A rendszer segít az adatok vizuális megjelenítésében és az előrejelzések készítésében az olasz COVID-19 járvány alakulásának követésére.
 
 ## Következtetés
 
 A COVID-19 Adat Előrejelző Rendszer egy erőforrás az adatok elemzéséhez és az előrejelzésekhez a járvány alakulásának követésére. A rendszer rugalmas és bővíthető, és lehetőséget nyújt a COVID-19 adatok elemzésére és a járvány alakulásának nyomon követésére az olaszországi eseményekkel kapcsolatban.
+
