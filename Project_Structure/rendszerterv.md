@@ -60,6 +60,27 @@ A COVID-19 Adat Előrejelző Rendszer működése a következő lépésekből á
 6. **Korábbi Előrejelzések Visszatöltése**:
    - A rendszer lehetővé teszi a korábbi előrejelzések visszatöltését és összehasonlítását az aktuális adatokkal.
 
+### Fizikai környezet
+ #### Felhasználói környezet:
+ Az alkalmazás Web-re lett fejlesztve, eléréséhez frissített böngészőt (Stabil verzió) kell használni. 
+ #### Fejlesztői környezet:
+ - Pycharm
+ - Visual Studio
+ - Visual Studio Code
+ #### Ábrák
+ - Lucidcharts 
+ - Paint
+ #### Kommunikáció
+ - Discord
+ - Messenger
+ - Trello
+ - In-Person meeting
+ #### Verziókezelés
+ - GitHub
+ #### Egyéb használt szoftverek
+ - Microsoft Word
+ - Gmail
+
 ## Felhasználás
 
 A COVID-19 Adat Előrejelző Rendszer felhasználható a COVID-19 adatok elemzésére, előrejelzésekre és követésre. A rendszer segít az adatok vizuális megjelenítésében és az előrejelzések készítésében az olasz COVID-19 járvány alakulására vonatkozóan.
