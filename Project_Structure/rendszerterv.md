@@ -31,6 +31,10 @@ A rendszer több komponensből áll, amelyek összefűzik a feldolgozást és az
    - A rendszer lehetővé teszi a korábbi előrejelzések mentését és visszatöltését.
    - A mentett előrejelzések segítik az adatok követését és összehasonlítását.
 
+## Üzleti folyamat
+
+![](https://github.com/Buksii/szfmnagy23/blob/main/Project_Structure/img/Üzleti%20terv.png)
+
 ## Működési Folyamat
 
 A COVID-19 Adat Előrejelző Rendszer működése a következő lépésekből áll:
