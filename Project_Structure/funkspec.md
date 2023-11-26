@@ -144,3 +144,11 @@ Az alábbiakban részletesen leírjuk a rendszer funkcióit és a hozzájuk tart
 
 A COVID-19 Adat Előrejelző Rendszer egy erőforrás az adatok elemzéséhez és az előrejelzésekhez a járvány alakulásának követésére. A rendszer rugalmas és bővíthető, és lehetőséget nyújt a COVID-19 adatok elemzésére és a járvány alakulásának nyomon követésére az olaszországi eseményekkel kapcsolatban.
 
+A COVID-19 Adat Előrejelző Rendszer egy hatékony eszköz a járványügyi adatok feldolgozására és értelmezésére. Rugalmasságának és bővíthetőségének köszönhetően alkalmas széles körű felhasználói igények kielégítésére. Az alkalmazás nemcsak a szakemberek, hanem a lakosság számára is hozzáférhetővé teszi a járványügyi adatokat, támogatva ezzel a tudatos döntéshozatalt és az általános járványtudatosságot.
+
+Az alkalmazás lehetővé teszi az adatok vizuális megjelenítését, ami segíti a felhasználókat a járványügyi helyzet gyorsabb és hatékonyabb értelmezésében. Az előrejelző funkciók révén a rendszer segít abban, hogy a felhasználók felkészülhessenek a jövőbeli eseményekre, és hatékonyabb intézkedéseket hozhassanak a járvány kezelésére.
+
+Az olaszországi eseményekkel kapcsolatos adatok nyomon követése révén az alkalmazás naprakész és releváns információkkal szolgál, lehetőséget adva azoknak, akik az országban élnek vagy érdeklődnek az ottani járványügyi helyzet iránt, hogy aktívan kövessék és reagáljanak a változásokra.
+
+Összességében a COVID-19 Adat Előrejelző Rendszer egy értékes eszköz a járvány elleni küzdelemben, hozzájárulva a hatékonyabb intézkedések meghozatalához és a társadalmi tudatosság növeléséhez az egészségügyi kihívásokkal kapcsolatban.
+
