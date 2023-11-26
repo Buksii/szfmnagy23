@@ -20,6 +20,9 @@ Az alkalmazás fejlesztéséhez és futtatásához az alábbi rendszerkövetelm�
 
 - **Hardver: Az alkalmazás futtatásához nincs specifikus hardverkövetelmény.
 
+## Folyamat
+![](https://github.com/Buksii/szfmnagy23/blob/main/Project_Structure/img/Folyamat.png)
+
 ## Funkcionális Követelmények
 
 Az alkalmazásnak teljesítenie kell a következő funkcionális követelményeket:
