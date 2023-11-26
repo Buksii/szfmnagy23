@@ -114,6 +114,14 @@ Ezen túlmenően a rendszer segítséget nyújt az epidemiológusoknak és kutat
 ## Böngészők és Platformok Támogatása
 Az alkalmazás fejlesztése során a Google Chrome böngészőt használunk mint a fő fejlesztői platform. Azonban fontos, hogy az alkalmazás több böngészőben is megfelelően működjön, például Firefox, Safari és Edge. Az alkalmazás reszponzív dizájnt használ, így különböző eszközökön, például asztali számítógépeken, laptopokon, tableteken és mobiltelefonokon is jól működjön.
 
+Az alkalmazás tervezése és fejlesztése során kiemelt figyelmet fordítottunk a böngészők és platformok támogatására, hogy a felhasználók minél szélesebb körben érhessék el és használhassák az alkalmazást.
+
+Böngészők támogatása terén az alkalmazás teljes körű funkcionalitást biztosít a Google Chrome mellett más népszerű böngészőkben is, beleértve a Firefoxot, Safarit és Edge-t. Ennek révén a felhasználók szabadon választhatnak a preferált böngészőjük használatában, anélkül, hogy kompromisszumokat kellene kötniük az alkalmazás teljesítményében.
+
+Az alkalmazás reszponzív dizájnjának köszönhetően a felhasználók számára optimális élményt biztosítunk különböző eszközökön. Legyen szó asztali számítógépről, laptopról, tablet-ről vagy mobiltelefonról, az alkalmazás megfelelően alkalmazkodik a kijelző méretéhez és felbontásához, így biztosítva a felhasználóbarát és könnyen kezelhető felhasználói élményt minden eszközön.
+
+Ezen rugalmasság révén az alkalmazás használata zavartalan és kényelmes minden felhasználó számára, és lehetővé teszi számukra, hogy a kiválasztott eszköz és böngésző kombinációval szabadon navigáljanak és élvezhessék az alkalmazás minden funkcióját.
+
 ## Mobilalkalmazás Támogatás
 Az alkalmazásnak lehetőséget kell biztosítania a mobilalkalmazásokhoz történő konverzióhoz, hogy a felhasználók különböző platformokon is élvezhessék a játékot. A mobilalkalmazásoknak is támogatniuk kell az előzően említett funkciókat és elvárásokat.
 
