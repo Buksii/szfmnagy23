@@ -99,6 +99,35 @@ A projekt sikeréhez egy kompetens projektcsapat szükséges, amely magában fog
 ## Követelmények Validálása
 
 Az elkészített alkalmazásnak meg kell felelnie a követelményeknek és a felhasználói igényeknek. A követelmények validálását folyamatosan végezni kell a projekt során.
+## Követelmények Validálása
+
+Az elkészített alkalmazásnak meg kell felelnie a követelményeknek és a felhasználói igényeknek. A követelmények validálását folyamatosan végezni kell a projekt során.
+
+### Fő Lépések:
+
+1. **Követelmények meghatározása:**
+   - Ellenőrizni, hogy a kezdeti követelmények teljes körűen lefedik-e az alkalmazás funkcionalitását és jellemzőit.
+   - Különös figyelmet fordítani a felhasználói igényekre és az üzleti célokra.
+
+2. **Validációs tesztek létrehozása:**
+   - Kidolgozni olyan teszteket, amelyek alapján ellenőrizhető, hogy az alkalmazás megfelel-e a meghatározott követelményeknek.
+   - Ezek a tesztek segítik az alkalmazás funkcionalitásának és stabilitásának validálását.
+
+3. **Rendszeres tesztelés:**
+   - Rendszeresen végezni teszteket az egyes modulokra és funkciókra.
+   - Azonnal reagálni és orvosolni bármilyen hibát vagy eltérést a tervezett követelményektől.
+
+4. **Feedback begyűjtése:**
+   - Folyamatosan kérni a felhasználói visszajelzéseket az alkalmazás teljesítményéről és funkcionalitásáról.
+   - A felhasználói észrevételek segítenek az esetleges problémák azonosításában és gyors megoldásában.
+
+5. **Kommunikáció a szakemberekkel:**
+   - Biztosítani, hogy az üzleti és technikai szakemberek rendszeresen egyeztessenek és tájékoztassák egymást a projekt állapotáról és esetleges változásairól.
+
+6. **Dokumentáció karbantartása:**
+   - A kezdeti követelmények dokumentációját frissen kell tartani a projekt előrehaladásával és a változásokkal összhangban.
+
+A követelmények folyamatos validálása hozzájárul ahhoz, hogy az elkészült alkalmazás valóban megfeleljen az eredeti céloknak és elégedettséget nyújtson a felhasználóknak.
 
 ## Összegzés
 
