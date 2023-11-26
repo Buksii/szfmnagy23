@@ -120,4 +120,7 @@ Ellenőrizzük, hogy a korábbi predikciók sikeresen betölthetők-e.
 ![Intenzív](https://github.com/Buksii/szfmnagy23/blob/main/Test_structure/test_img/ItaliandailyintensiveCarepatients.png)
 ![Napi új esetszám](https://github.com/Buksii/szfmnagy23/blob/main/Test_structure/test_img/Italiannew-dailycasesprediction.png)
 ![Teljes olasz esetszám](https://github.com/Buksii/szfmnagy23/blob/main/Test_structure/test_img/Italiantotalcasesprediction.png)
+![Regresszió gráf excel](https://github.com/Buksii/szfmnagy23/blob/main/Final_Graphs/Regresszió_graph.png)
+![Regressziós statisztika excel](https://github.com/Buksii/szfmnagy23/blob/main/Final_Graphs/Regressziós%20statisztika.png)
+![Covid statisztika lineáris regresszióval](https://github.com/Buksii/szfmnagy23/blob/main/Final_Graphs/Regressziós%20statisztika.png)
 
