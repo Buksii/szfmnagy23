@@ -101,7 +101,15 @@ Az alkalmazás felhasználói interfészének fejlesztése során a Bootstrap ke
 
 ## Felhasználás
 
-A COVID-19 Adat Előrejelző Rendszer felhasználható a COVID-19 adatok elemzésére, előrejelzésekre és követésre. A rendszer segít az adatok vizuális megjelenítésében és az előrejelzések készítésében az olasz COVID-19 járvány alakulására vonatkozóan.
+A COVID-19 Adat Előrejelző Rendszer kiváló eszköz a járványügyi adatok részletes elemzésére és hatékony követésére. Az rendszer által biztosított adatok segítségével a felhasználók részletes betekintést nyerhetnek az olasz COVID-19 járvány dinamikájába. Az interaktív grafikonok és térképek lehetővé teszik az adatok vizuális megjelenítését, segítve ezzel a felhasználókat abban, hogy könnyen értelmezhessék az információkat.
+
+Az előrejelző funkciók révén a rendszer lehetőséget kínál az előzetes becslésekre és trendek elemzésére. Ezáltal a felhasználók képesek lehetnek a járvány alakulásának előrejelzésére, ami segíthet a kormányzati döntéshozóknak és az egészségügyi szakembereknek a megfelelő intézkedések meghozatalában.
+
+A rendszer használata intuitív és felhasználóbarát, így nemcsak szakemberek, hanem a nagyközönség is könnyen tájékozódhat az aktuális helyzetről és a várható fejleményekről. Az adatok naprakészen kerülnek frissítésre, biztosítva a felhasználók számára a legaktuálisabb információkat.
+
+Ezen túlmenően a rendszer segítséget nyújt az epidemiológusoknak és kutatóknak az adatok mélyebb elemzésében, aminek révén új összefüggéseket és mintázatokat fedezhetnek fel, amelyek további információkat szolgáltathatnak a járvány terjedésével kapcsolatban.
+
+Összességében a COVID-19 Adat Előrejelző Rendszer egy hatékony eszköz a járványügyi adatok feldolgozására és értelmezésére, segítve a társadalmat a helyes döntések meghozatalában és a járvány hatékonyabb kezelésében.
 
 ## Böngészők és Platformok Támogatása
 Az alkalmazás fejlesztése során a Google Chrome böngészőt használunk mint a fő fejlesztői platform. Azonban fontos, hogy az alkalmazás több böngészőben is megfelelően működjön, például Firefox, Safari és Edge. Az alkalmazás reszponzív dizájnt használ, így különböző eszközökön, például asztali számítógépeken, laptopokon, tableteken és mobiltelefonokon is jól működjön.
