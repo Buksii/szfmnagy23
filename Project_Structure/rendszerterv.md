@@ -123,7 +123,32 @@ Az alkalmazás reszponzív dizájnjának köszönhetően a felhasználók szám�
 Ezen rugalmasság révén az alkalmazás használata zavartalan és kényelmes minden felhasználó számára, és lehetővé teszi számukra, hogy a kiválasztott eszköz és böngésző kombinációval szabadon navigáljanak és élvezhessék az alkalmazás minden funkcióját.
 
 ## Mobilalkalmazás Támogatás
+
 Az alkalmazásnak lehetőséget kell biztosítania a mobilalkalmazásokhoz történő konverzióhoz, hogy a felhasználók különböző platformokon is élvezhessék a játékot. A mobilalkalmazásoknak is támogatniuk kell az előzően említett funkciókat és elvárásokat.
+
+### Főbb Elemek:
+
+1. **Mobilplatformok támogatása:**
+   - Biztosítani a konverziót olyan mobilalkalmazásokra, mint Android és iOS.
+   - Az alkalmazásnak alkalmazkodnia kell a kisebb kijelzőkhöz és a mobil felhasználói élményhez.
+
+2. **Funkcionális egységesítés:**
+   - A mobilalkalmazásnak ugyanazokat a funkcionalitásokat kell támogatnia, mint a webes változat.
+   - Azonos játékmenet, adatok elemzése és előrejelzések álljanak rendelkezésre a mobil alkalmazásokban is.
+
+3. **Vizuális összhang:**
+   - A mobilalkalmazásoknak az alkalmazás szellemiségével és dizájnélményével összhangban kell lenniük.
+   - Biztosítani, hogy az alkalmazás hasonló vizuális élményt nyújtson minden platformon.
+
+4. **Felhasználói Élmény Optimalizálása:**
+   - A mobilalkalmazásoknak a kisebb érintőképernyőkre optimalizált felhasználói felülettel kell rendelkezniük.
+   - Az érintésvezérlés, a gyors reakcióidő és az egyszerű navigáció kulcsfontosságú elemek a mobil felhasználói élmény szempontjából.
+
+5. **Offline Funkciók:**
+   - Lehetővé tenni a felhasználók számára, hogy bizonyos funkciókat offline módban is használhassanak.
+   - Például az előző adatok letöltése vagy az offline előrejelzések elérhetősége.
+
+Az ilyen módon kialakított mobilalkalmazások lehetővé teszik a felhasználók számára, hogy rugalmasan élvezhessék az alkalmazást különböző eszközökön, függetlenül attól, hogy éppen asztali számítógépen, laptopon vagy mobiltelefonon használják.
 
 ## Deployment
 Az alkalmazás telepítésére és üzemeltetésére fontos figyelmet fordítani. Az alkalmazást szerveren (LOCALHOST) kell hostolni, és gondoskodni kell a szükséges infrastruktúra és környezet beállításáról. A telepítés során az adatbázis konfigurációját is be kell állítani, és gondoskodni kell a biztonsági intézkedésekről, például tűzfalakról és hozzáférési jogosultságokról.
