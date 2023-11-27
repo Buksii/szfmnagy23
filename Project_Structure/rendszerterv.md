@@ -186,3 +186,22 @@ Az alkalmazás telepítése során a fenti lépésekre való figyelem és gondos
 ## Következtetés
 
 A COVID-19 Adat Előrejelző Rendszer egy erőforrás az adatok elemzéséhez és az előrejelzésekhez a járvány alakulásának követésére. A rendszer rugalmas és bővíthető, és lehetőséget nyújt a COVID-19 adatok elemzésére és a járvány alakulásának nyomon követésére az olaszországi eseményekkel kapcsolatban.
+
+### Főbb Jellemzők:
+
+1. **Adatok Elemzése és Vizuális Megjelenítés:**
+   - Az alkalmazás lehetővé teszi a COVID-19 adatok részletes elemzését és vizuális megjelenítését, így könnyen átláthatóvá válik a járvány alakulása.
+
+2. **Előrejelzések Készítése:**
+   - A rendszer előrejelzéseket készít az olaszországi COVID-19 járvány alakulására vonatkozóan, segítve ezzel a jövőbeli tendenciák és kockázatok felismerését.
+
+3. **Rugalmas és Bővíthető Rendszer:**
+   - Az alkalmazás rugalmas és könnyen bővíthető, lehetővé téve a további fejlesztéseket és új funkciók hozzáadását a rendszerhez.
+
+4. **Felhasználóbarát Felület:**
+   - Az alkalmazás felhasználóbarát felülettel rendelkezik, amely lehetővé teszi a felhasználók számára egyszerű és hatékony használatot.
+
+5. **Mobilalkalmazás Támogatás:**
+   - Az alkalmazás lehetőséget biztosít a mobilalkalmazásokhoz történő konverzióra, lehetővé téve a felhasználók számára a különböző platformokon történő használatot.
+
+A COVID-19 Adat Előrejelző Rendszer egy olyan eszköz, amely hozzájárul a járvány alakulásának jobb megértéséhez és az intézkedések meghozatalához az olaszországi események kezelése során. A rendszer folyamatos fejlesztése és karbantartása kulcsfontosságú a releváns és naprakész információk nyújtásához.
