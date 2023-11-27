@@ -8,4 +8,4 @@
 **---------------------------------------**
 - [Prezentáció (Canva)](https://www.canva.com/design/DAFwCZ56GEI/-Jhyy7jEEgq-CP90dPq_KA/view?utm_content=DAFwCZ56GEI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 - [Hostolt weboldal](https://szfmnagy23.000webhostapp.com/?fbclid=IwAR1y9Sm-cwR3du6eMrr4wkD_R9G8GLpNKaAfh4vuLYuDvVmkKSvP0ytRnh0)
-- [Trello](https://trello.com/b/mMYBH83O/szfmnagy2023)
+- [Trello](https://trello.com/b/KFyL7q4r/szfm2023)
