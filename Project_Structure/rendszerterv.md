@@ -151,7 +151,37 @@ Az alkalmazásnak lehetőséget kell biztosítania a mobilalkalmazásokhoz tört
 Az ilyen módon kialakított mobilalkalmazások lehetővé teszik a felhasználók számára, hogy rugalmasan élvezhessék az alkalmazást különböző eszközökön, függetlenül attól, hogy éppen asztali számítógépen, laptopon vagy mobiltelefonon használják.
 
 ## Deployment
+
 Az alkalmazás telepítésére és üzemeltetésére fontos figyelmet fordítani. Az alkalmazást szerveren (LOCALHOST) kell hostolni, és gondoskodni kell a szükséges infrastruktúra és környezet beállításáról. A telepítés során az adatbázis konfigurációját is be kell állítani, és gondoskodni kell a biztonsági intézkedésekről, például tűzfalakról és hozzáférési jogosultságokról.
+
+### Telepítés Folyamata:
+
+1. **Szerver Konfiguráció:**
+   - Ellenőrizni, hogy a szerver megfelelően konfigurált-e az alkalmazás követelményeinek.
+   - Telepíteni a szükséges szoftvereket és szolgáltatásokat, mint például a web szerver (pl., Apache vagy Nginx) és a szükséges futtató környezetek.
+
+2. **Alkalmazás Feltöltése:**
+   - Feltenni az alkalmazás fájljait a szerverre. Biztosítani, hogy a szükséges fájlok és könyvtárak rendelkezésre álljanak.
+
+3. **Környezeti Beállítások:**
+   - Konfigurálni az alkalmazás környezeti beállításait, például a fejlesztői és termelési környezetekhez szükséges paramétereket.
+
+4. **Adatbázis Konfiguráció:**
+   - Beállítani az alkalmazás adatbázisát, beleértve az adatbázis típusát, elérési útvonalát, felhasználói nevet és jelszót.
+
+5. **Biztonsági Intézkedések:**
+   - Aktiválni tűzfalakat és más biztonsági intézkedéseket a szerveren és az alkalmazáson belül.
+   - Gondoskodni a titkosításról (SSL/TLS) az adatok védelme érdekében.
+
+6. **Folyamatos Ellenőrzés és Karbantartás:**
+   - Folyamatosan ellenőrizni az alkalmazás állapotát és teljesítményét.
+   - Végezni időszakos karbantartásokat, frissítéseket és biztonsági ellenőrzéseket.
+
+7. **Logolás és Monitorozás:**
+   - Beállítani logolási mechanizmusokat a hibák és figyelmeztetések rögzítésére.
+   - Monitorozni az alkalmazás teljesítményét és rendszeres erőforrásfelhasználását.
+
+Az alkalmazás telepítése során a fenti lépésekre való figyelem és gondosság segít biztosítani az alkalmazás stabil és biztonságos üzemeltetését.
 
 ## Következtetés
 
